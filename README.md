@@ -87,3 +87,5 @@ begin
    save_file('SOME_DIRECTORY', 'some_file.zip', lb_Result);
 end;
 ```
+## Compatibility
+Tested on Oracle Database 11g Enterprise Edition Release 11.2.0.3.0 - 64bit Production.
