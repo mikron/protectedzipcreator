@@ -1,4 +1,4 @@
-package arm.lsoft.db.utils;
+package arm.lsoft.db.logging;
 
 import java.io.IOException;
 import java.io.Writer;

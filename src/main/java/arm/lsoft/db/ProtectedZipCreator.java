@@ -1,7 +1,7 @@
 package arm.lsoft.db;
 
 import arm.lsoft.db.utils.IOUtils;
-import arm.lsoft.db.utils.LogWriter;
+import arm.lsoft.db.logging.LogWriter;
 import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.io.ZipOutputStream;
 import net.lingala.zip4j.model.ZipParameters;
