@@ -1,4 +1,4 @@
-package arm.lsoft.db;
+package arm.lsoft.db.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

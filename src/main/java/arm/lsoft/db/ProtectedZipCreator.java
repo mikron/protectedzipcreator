@@ -1,5 +1,7 @@
 package arm.lsoft.db;
 
+import arm.lsoft.db.utils.IOUtils;
+import arm.lsoft.db.utils.LogWriter;
 import net.lingala.zip4j.exception.ZipException;
 import net.lingala.zip4j.io.ZipOutputStream;
 import net.lingala.zip4j.model.ZipParameters;
@@ -42,11 +44,6 @@ class ProtectedZipCreator {
         zipOutputStream.close();
         bos.close();
     }
-
-}
-
-
-public class ZipCreate {
 
     public static void main(String args[]) throws ZipException, IOException {
         InputStream inputStream = new FileInputStream("/opt/loginManager.properties");
