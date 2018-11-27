@@ -34,7 +34,6 @@ declare
       ltx int := 0;
    begin
       dbms_lob.fileopen(lb_xml, dbms_lob.lob_readonly);
-      put(dbms_lob.getlength(lb_xml), ai_Pref => 0);
       dbms_lob.loadblobfromfile(lb_file, lb_xml, dbms_lob.getlength(lb_xml),
                                 li_dest, li_src);
       dbms_lob.fileclose(lb_xml);
